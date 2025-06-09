@@ -1,0 +1,17 @@
+# Directorio de compilación de Maven/Gradle
+target/
+
+# Archivos específicos de Visual Studio Code
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Directorio de dependencias (si las gestionas manualmente o si Maven/Gradle las descarga en 'lib')
+# Si Maven o Gradle se encargan de las dependencias, podrías querer ignorar 'lib/'
+# Si tienes JARs que quieres versionar, no ignores 'lib/'
+# lib/
+
+# Ignorar archivos específicos de sistema operativo
+.DS_Store
+Thumbs.db
