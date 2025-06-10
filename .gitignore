@@ -4,13 +4,16 @@ target/
 # Archivos específicos de Visual Studio Code
 .vscode/
 
+# Directorios de compilación y dependencias locales
+bin/
+lib/
+
 # Archivos de logs
 *.log
 
-# Directorio de dependencias (si las gestionas manualmente o si Maven/Gradle las descarga en 'lib')
-# Si Maven o Gradle se encargan de las dependencias, podrías querer ignorar 'lib/'
-# Si tienes JARs que quieres versionar, no ignores 'lib/'
-# lib/
+# Archivos compilados de Java
+*.class
+*.tmp
 
 # Ignorar archivos específicos de sistema operativo
 .DS_Store
